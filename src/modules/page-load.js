@@ -1,4 +1,4 @@
-import { schedulesDay } from "./form/load.js";
+import { schedulesDay } from "./schedules/load.js";
 
 export function pageLoad(){
   if (typeof schedulesDay === "function") {
